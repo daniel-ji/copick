@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.6.0](https://github.com/daniel-ji/copick/compare/copick-v1.5.0...copick-v1.6.0) (2025-06-25)
+
+
+### ✨ Features
+
+* Add utility to generate empty-picks for a new copick project ([#79](https://github.com/daniel-ji/copick/issues/79)) ([d5d5030](https://github.com/daniel-ji/copick/commit/d5d50307b82bf230b9dfbe81a09b7c9416b63a79))
+* Allow querying copick tomograms with portal metadata ([b1920f6](https://github.com/daniel-ji/copick/commit/b1920f60e93e542be75d07ec43fbed2c09e71983))
+* Generate Config Files for the Dataportal Through CLI ([#77](https://github.com/daniel-ji/copick/issues/77)) ([7b1daaf](https://github.com/daniel-ji/copick/commit/7b1daafc10c8a39e839e577786cf5619902d9246))
+* Switch to uv for test workflows and activate codecov ([#80](https://github.com/daniel-ji/copick/issues/80)) ([1eb0212](https://github.com/daniel-ji/copick/commit/1eb02128b153b154cfbab18c11537333544dd208))
+
+
+### 🐞 Bug Fixes
+
+* Bump chanzuckerberg/github-actions from 1.5.0 to 6.4.0 ([#91](https://github.com/daniel-ji/copick/issues/91)) ([2e225d9](https://github.com/daniel-ji/copick/commit/2e225d9bee80d045d38751e69e4a323e020af899))
+* changes for smbfs caused duplications with localfs ([fa94e38](https://github.com/daniel-ji/copick/commit/fa94e38aefedce1d96bf5e5c294639cadc03ea7a))
+* Fix point initialization and loading ([#81](https://github.com/daniel-ji/copick/issues/81)) ([7205c24](https://github.com/daniel-ji/copick/commit/7205c24516b7699f84a5a96e3e55050a6adf50d6))
+* Make cryoET data portal implementation compatible with python 3.9 ([f87688b](https://github.com/daniel-ji/copick/commit/f87688b07c92504040d92b997fdaa65dd054676a))
+* Reading annotations with shape type "Point" from portal and portal project autogen. ([0a13aec](https://github.com/daniel-ji/copick/commit/0a13aeccb2ea5fef827efb5fbb2395eb43e4dfff))
+
+
+### 🧹 Miscellaneous Chores
+
+* Add conventional commit action. ([#86](https://github.com/daniel-ji/copick/issues/86)) ([9f8708f](https://github.com/daniel-ji/copick/commit/9f8708f4a7f0ad8b83828b3162bbb24bc40f6293))
+* Bump astral-sh/setup-uv from 5 to 6 ([#85](https://github.com/daniel-ji/copick/issues/85)) ([503415d](https://github.com/daniel-ji/copick/commit/503415d344571ba6e3b022736f6edccb7c58c193))
+* Bump peaceiris/actions-gh-pages from 3 to 4 ([#83](https://github.com/daniel-ji/copick/issues/83)) ([d5b286a](https://github.com/daniel-ji/copick/commit/d5b286ac7061d11ca212bc57efdbbb6338e35d78))
+* **main:** release copick 1.3.0 ([#87](https://github.com/daniel-ji/copick/issues/87)) ([cbecf3c](https://github.com/daniel-ji/copick/commit/cbecf3c33a53d4d6fbf8a39d04fb31c4fb41adc3))
+* **main:** release copick 1.4.0 ([#89](https://github.com/daniel-ji/copick/issues/89)) ([b82f64c](https://github.com/daniel-ji/copick/commit/b82f64cc90c2bc1ea725cf5e8ac15d9eede6633f))
+* **main:** release copick 1.5.0 ([#90](https://github.com/daniel-ji/copick/issues/90)) ([8d7ef28](https://github.com/daniel-ji/copick/commit/8d7ef284ca1f3754ad5b7832ed6018a822451f66))
+* Update README.md ([#88](https://github.com/daniel-ji/copick/issues/88)) ([38f1e79](https://github.com/daniel-ji/copick/commit/38f1e7971cafd864c85f198d3a9ad8c7d6492e29))
+
 ## [1.5.0](https://github.com/copick/copick/compare/copick-v1.4.0...copick-v1.5.0) (2025-06-21)
 
 
